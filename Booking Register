@@ -1,0 +1,123 @@
+<html>
+
+<head>
+
+</head>
+<body style="background-color:#6abce2">
+
+<h1 style="text-align:center">Booking Room </h1>
+<form name="frmDataEntry" action="processor.html" method="get">
+  <table>
+		<tr>
+			<td>
+				Add Title:
+			</td>
+			<td>
+				<textarea row="5" col="17" placeholder="Meeting purpose"></textarea>
+			</td>
+		</tr>
+</table>
+<br>
+<button>Event</button> 
+
+<button>Task</button> 
+
+<button>Reminder</button>
+<hr>	
+<h3>Your information</h3>
+<table>
+		<tr>
+			<td>
+				Phone Number:
+			</td>
+			<td>
+				<input type="phone" placeholder="98******" >
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Email :
+			</td>
+			<td>
+				<input type="email" placeholder="Example@gmail.com" >
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Gender:
+			</td>
+			<td>
+				<input type="radio" name="gender">Male
+				<input type="radio" name="gender">Female
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Date of birth:
+			</td>
+			<td>
+				<input type="date" >	
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Who's Booking room :
+			</td>
+			<td>
+				<select>
+					<option>select option</option>
+					<option>Stuff</option>
+					<option>Visitor</option>
+					<option>CEO </option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Address:
+			</td>
+			<td>
+				<textarea row="5" col="17" placeholder="Address"></textarea>
+			</td>
+		</tr>
+		
+  </table>
+</form>
+<p>From</p>
+<input type="date"></input>
+<input type="time"></input>
+<br>
+<br>
+<p>To</p>
+<input type="date"></input>
+<input type="time"></input>
+<br>
+<br>
+<label >Location</label>
+<style>
+</style>
+<input type="text" class="location" name="location" id="location" placeholder="Enter meeting location"></input>
+<br>
+<br>
+<label>Reminder before the meeting<label>
+<select>
+		<option value="">5 miniute before</option>
+		<option value="">10 minuite before</option>
+		<option value="">15 minuite before</option>		
+		
+</select>
+<br>
+<br>
+<label>Add description :</label> 
+
+<textarea row="5" col="17" placeholder="Meeting purpose"></textarea>
+<br>
+<br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+				
+				
+			
+
+</body>
+</html>
